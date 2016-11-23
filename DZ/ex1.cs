@@ -10,16 +10,16 @@ namespace blabla
 			int size;
 			Console.WriteLine("Введите количество эелементов в массиве:");
 			size = int.Parse(Console.ReadLine());
-			int[] a = new int[Math.Abs(size)];
-			string aa;
+			int[] b = new int[Math.Abs(size)];
+			string bb;
 			for (int i = 0; i <Math.Abs(size); i++)
 			{
 				Console.Write("Введите элемент номер {0} :", i+1);
-				aa = Console.ReadLine();
-				a[i] = Convert.ToInt16(aa);
+				bb = Console.ReadLine();
+				b[i] = Convert.ToInt16(aa);
 			}
 			Console.Write("Массив:");
-			foreach (int j in a)
+			foreach (int j in b)
 			{
 				Console.Write("{0} ", j);
 			}
